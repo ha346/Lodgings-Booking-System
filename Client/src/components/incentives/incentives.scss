@@ -1,0 +1,34 @@
+.incentivesMainContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+}
+
+.incentivesContainer{
+    border:1px solid rgb(194, 180, 180);
+    width: auto;
+    height: auto;
+    padding:15px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+.incentivesImg{  
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.incentivesTitle{
+    font-weight: 500px;
+    font-size: 15px; 
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+ 

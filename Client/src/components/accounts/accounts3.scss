@@ -1,0 +1,57 @@
+.securityTableContainer{
+    margin-top:-20px;
+    width:60%; 
+}
+
+.securityDetailsMainContainer{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.securityDetailsText{
+    width: 85%;
+}
+
+.boldText{
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.smallText{
+    font-size: 16px;
+    margin-top: 10px;
+}
+ 
+.accounts3Block{
+    display:flex;
+    margin-top:20px;
+}
+
+.accounts3BlockTitle{
+    margin-left: 20px;
+    width: 20%;
+    font-size: 15px;
+}
+
+.accounts3BlockText{
+    font-size: 14px;
+    width: 60%;
+}
+
+.accounts3BlockEdit{
+    font-size: 14px;
+    color: blue;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-top: -3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.accounts3BlockEdit:hover{
+    background-color: rgb(244, 247, 249);
+    border-radius: 5px;
+}

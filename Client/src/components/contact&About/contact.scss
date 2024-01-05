@@ -1,0 +1,32 @@
+.contactMainContainer{
+    margin-bottom: 4%;
+    overflow-x: hidden;
+}
+
+.contactContainer{
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.contactTitle{
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.contactTextField{
+    margin-top: 3%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contactTitleInput{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contactFooter{
+    margin-top: 5%; 
+}

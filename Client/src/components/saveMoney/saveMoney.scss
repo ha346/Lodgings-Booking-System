@@ -1,0 +1,62 @@
+.mainSaveMoneyContainer{
+    margin-top:10px;
+}
+
+.saveMoneyContainer{
+    border:1px solid lightgray;
+    padding:20px 15px 20px 15px;
+    display:flex; 
+}
+
+.saveMoneyDesc{
+    width: 90%;
+    margin-top:5px;
+}
+
+.saveMoneyDesc1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.saveMoneyDesc2{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.saveMoneyDesc3{
+    display: flex;
+    margin-top: 10px;
+}
+
+.saveMoneySignIn{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    color: blue;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+.saveMoneySignIn:hover{
+    background-color: rgb(244, 247, 249);
+}
+
+.saveMoneyAccount{
+    padding: 10px;
+    border-radius: 2px;
+    color: blue;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+.saveMoneyAccount:hover{
+    background-color: rgb(240, 244, 247);
+    border-radius: 5px;
+}
+
+.saveMoneyImg{
+    margin-top: 10px;
+}

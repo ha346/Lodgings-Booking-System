@@ -1,0 +1,46 @@
+.accountsMainContainer{  
+    width: 100%;    
+    margin-bottom:30px;
+    overflow-x: hidden;
+}
+
+.accountsContainer{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+
+.accountsSideMainContainer{
+    display: flex;
+    width: 20%; 
+    border: 1px solid gray;
+    flex-direction: column;
+    border-radius: 5px; 
+    height: 100%;
+    margin-top: 5px;
+}
+
+.accountsSideContainer{
+    display:flex;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.accountsSideContainer:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.accountsSideContainerText{
+    font-size: 15px; 
+    padding:20px;
+}
+
+.accountsSideContainerLogo{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+ 

@@ -1,0 +1,39 @@
+.privacyTableContainer{
+    width:60%
+}
+
+.privacyDetailsMainContainer{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.privacyDetailsText{
+    width: 85%;
+}
+
+.boldText{
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.smallText{
+    font-size: 16px;
+    margin-top: 10px;
+}
+ 
+.manage{
+    font-size: 14px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 10px 2px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 26px;
+}
+
+.manage:hover{
+    background-color: rgb(244, 247, 249);
+    border-radius: 5px;  
+}

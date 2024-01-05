@@ -1,0 +1,81 @@
+.mainHeading{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.reviewMainContainer{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: 20px;
+    gap:20px;
+}
+
+.reviewContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px 20px;
+    width: 44%;
+}
+
+.RatingPlusTitle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.reviewRating{
+    width: 6%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    border-radius: 3px;
+}
+
+.ratingNo{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.ratingImg{
+    margin-top: 1px;
+}
+
+.reviewTitle{
+    margin-top: 3px;
+    margin-left:10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.starRating{
+    margin-left: 10px;
+}
+
+.reviewDescription{
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.namePlusDate{
+    display: flex;
+    margin-top: 20px;
+}
+
+.userName{
+    font-size: 12px;
+}
+
+.dateOfReview{
+    font-size: 12px;
+    margin-left: 15px;
+}

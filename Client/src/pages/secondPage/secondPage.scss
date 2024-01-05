@@ -1,0 +1,110 @@
+.secondPageContainer {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;   
+  overflow-x: hidden;
+  margin-bottom:30px; 
+  }
+
+  .sideContainer{
+    display: flex;
+    width: 20%;
+    margin-left: 70px;
+    border: 1px solid gray;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top:5px;
+    height: 100%;
+    position:sticky;
+  }
+
+  .sideContainer1{
+     font-size: 16px;
+     font-weight: bold;
+     padding:12px;
+  }
+
+  .sideContainer2{
+    padding: 15px;
+    .sideContainer21{
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .sideContainer22{
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  }
+
+  .range{
+    margin-top: 40px;
+  }
+
+  .listContainer{
+    display:flex;
+    width:70%;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  
+  .listResult {  
+    display:flex;
+    width:90%;
+    flex-direction: column;
+  }
+
+  .slider{
+     
+    position: relative;
+    width: 230px;
+    height: 1.7px;
+    background-color: wheat;
+    cursor: pointer; 
+    .thumb{
+      top: -7px;
+
+      height: 15px;
+
+      width: 15px;
+      background-color: blue;
+      border-radius: 100%;
+    }
+  
+ }
+ .track{
+    border: 2px solid blue;
+ }
+
+ .mainCategory{
+   margin-top: 50px; 
+ }
+
+ .category{ 
+    display: flex;
+ }
+
+ .categoryName{
+    margin-left: 2px; 
+    margin-top: 12px;
+    font-size: 16px;
+ }
+
+ .stars{
+    margin-top:40px;
+    margin-bottom: 10px;
+ }
+
+ .pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+ }
+
+ .secondPageSkeleton{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ }
+  

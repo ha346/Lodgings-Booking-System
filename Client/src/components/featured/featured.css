@@ -1,0 +1,43 @@
+.featured{
+  width: 100%;
+  max-width: 1024px;
+  display: flex; 
+  gap: 20px;
+  z-index: 1; 
+  flex-wrap: wrap; 
+  margin-top: 10px; 
+
+}
+
+.featuredItem1{
+  position: relative;
+  color: white;
+  border-radius: 10px; 
+  overflow: hidden; 
+  height: 280px; 
+  width: 500px;
+  cursor: pointer;
+}
+
+.featuredItem2{
+  position: relative;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden; 
+  height: 280px; 
+  width: 326px;
+  cursor:pointer
+}
+
+.featuredImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featuredTitles{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+

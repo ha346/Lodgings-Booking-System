@@ -1,0 +1,45 @@
+.paymentTableContainer{
+    width:60%
+}
+
+.paymentDetailsMainContainer{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.paymentDetailsText{
+    width: 85%;
+}
+
+.boldText{
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.smallText{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.edit:hover{
+    cursor:pointer;
+    background-color: rgb(244, 247, 249); 
+    border-radius:5px; 
+}
+
+.addCard{
+    font-size: 14px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.addCard:hover{
+    background-color: rgb(244, 247, 249);
+    border-radius: 5px;  
+}

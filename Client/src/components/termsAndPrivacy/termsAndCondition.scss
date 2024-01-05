@@ -1,0 +1,43 @@
+.termsMainContainer{
+   margin-bottom: 4%;
+   overflow-x: hidden;
+}
+
+.termsContainer{
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigFontTerms{
+    margin-right: 20%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.smallFontTerms{
+    margin-right: 26%;
+    margin-top: 4%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.paraForTerms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 15px;
+    gap: 20px;
+    line-height: 25px;
+}
+
+.termsFooter{
+    margin-top: 5%; 
+}

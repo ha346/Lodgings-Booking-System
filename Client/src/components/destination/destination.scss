@@ -1,0 +1,25 @@
+.destinationMainContainer{
+    width: 100%;
+    max-width: 1024px; 
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 10px; 
+}
+
+.destinationContainer{
+    display: flex;
+    width: 18%;  
+    flex-wrap: wrap; 
+    margin-top: 10px;  
+    margin-right: 19px;
+}
+ 
+.bigFont{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.smallFont{
+    font-size: 12px;
+    margin-top: 5px;
+}

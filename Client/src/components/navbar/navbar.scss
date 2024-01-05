@@ -1,0 +1,139 @@
+/* .navbar{
+  width: 100%;
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.logo{
+  font-weight: 500;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+} */
+
+
+@import 'mixin';
+
+.nav-para {
+
+
+    padding: 5px 15px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);  
+    text-align: center;
+    background-color: black;
+
+}
+
+.registerAndSignIn{
+    display: flex;
+    margin-bottom: 9px;
+}
+
+.registerAndSignInText{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    color: blue;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+.registerAndSignInText:hover{
+    background-color: rgb(244, 247, 249);
+}
+ 
+.nav-cont {
+    // position: absolute;
+    width: 95%;
+    padding: 25px 50px;
+
+    >nav {
+        /* border: 1px solid #d2eaff; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        //   padding: 22px;
+
+
+        .home-opt {
+            transform: translateX(73px);
+        }
+
+        svg {
+            font-size: 23px;
+        }
+
+        ul {
+            @include flexprop(row, space-between, center);
+
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 17px;
+            color: #000000;
+            font-style: normal;
+            margin: 0 15px;
+
+
+            transition: all 0.5s;
+            position: relative;
+            padding: 2px;
+            font-weight: 450;
+
+            img {
+                width: 30px;
+                border-radius: 100%;
+            }
+
+            // border: 1px solid;
+            &::after {
+                position: absolute;
+                content: "";
+                background-color: #ff6e68;
+                // width: 100%;
+                height: 1px;
+                bottom: 0;
+                left: 0;
+                width: 0%;
+                transition: all 0.5s;
+
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+
+            &:hover {
+                color: #ff6e68;
+            }
+
+        }
+
+        .cart-icon-link {
+            position: relative;
+        }
+    }
+
+}
+
+ 

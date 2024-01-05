@@ -1,0 +1,122 @@
+.setingsMainContainer{
+    margin-top: 30px;
+}
+
+.setingsTitle{
+    margin-left: 10%;
+}
+
+.setingsTitleBold{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.setingsTitleSmall{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.setingsContainers{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.setingsContainer1{
+    width: 37%;
+    border: 1px solid #ddd8d8;
+    border-radius: 10px;
+    padding: 25px 25px;
+    display:flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.setingsContainer2{
+    width: 37%;
+    border: 1px solid #ddd8d8;
+    border-radius: 10px;
+    padding: 25px 25px;
+    display:flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.setingsContainer3{
+    width: 37%;
+    border: 1px solid #ddd8d8;
+    border-radius: 10px;
+    padding: 25px 25px;
+    display:flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.setingsContainer4{
+    width: 37%;
+    border: 1px solid #ddd8d8;
+    border-radius: 10px;
+    padding: 25px 25px;
+    display:flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.setingsContainer5{
+    width: 37%;
+    border: 1px solid #ddd8d8;
+    border-radius: 10px;
+    padding: 25px 25px;
+    display:flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.setingsLink{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.setingsLink:hover{
+    color: blue;
+}
+
+.setingsContainerText{
+    margin-left: 15px;
+}
+
+.setingsContainerTextTitle{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.setingsContainerTextPara{
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.setingsContainerTextLink{
+    font-size: 14px;
+    color: blue;
+    margin-top: 14px;
+}
+
+.setingsContainerTextLink:hover{
+    text-decoration: underline;
+}
+
+.setingsContainerImage{
+    width: 10%;
+    border-radius: 100%;
+    background-color: #f3f3f3;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+}
+ 

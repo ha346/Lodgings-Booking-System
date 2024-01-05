@@ -1,0 +1,115 @@
+.manageMainContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 30px;
+}
+
+.manageText{
+    width: 50%;
+}
+
+.manageTextBold{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.manageTextSmall{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.manageInput{
+    width: 50%;
+    margin-top: 40px;
+}
+
+.nameText{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.verify{
+    margin-top: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 18px 20px;
+    background: #fff0f0;
+    font-size: 15px;
+    width: 97%;
+}
+ 
+.manageRadio1{
+    margin-top: 40px;
+    width: 50%;
+}
+
+.manageRadioText{
+    font-weight: bold;
+}
+
+.formControl{
+    font-size:14px;
+}
+
+.manageRadioRadioText{
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.manageRadio2{
+    margin-top: 40px;
+    width: 50%;
+}
+
+
+.manageConfirmation{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.confirmation{
+    margin-top: 15px;
+}
+
+.confirmationTitle{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.confirmationText{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.pinCode{
+    margin-top: 30px;
+}
+
+.pinCodeTitle{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pinCodeText{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.manageSubmit{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 39%;
+    margin-top: 3%;
+}

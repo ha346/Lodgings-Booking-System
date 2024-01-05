@@ -1,0 +1,142 @@
+.personalTableContainer{
+    width:60%;
+    margin-top:-20px;
+}
+
+.personalDetailsMainContainer{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.personalDetailsText{
+    width: 85%;
+}
+
+.boldText{
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.smallText{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.starExponent{
+    color:red;
+}
+
+.accounts1Block{
+    display:flex;
+    margin-top:20px;
+}
+
+.accounts1BlockTitle{
+    margin-left: 20px;
+    width: 20%;
+    font-size: 15px;
+}
+
+.accounts1BlockText{
+    font-size: 14px;
+    width: 65%;
+}
+
+.accounts1BlockText2{
+    font-size: 14px; 
+    margin-left: 22%;
+    width: 60%;
+}
+
+.accounts1BlockEdit{
+    font-size: 14px;
+    color: blue;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    margin-top: -3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+ 
+.accounts1BlockEdit:hover{
+    background-color: rgb(244, 247, 249);
+    border-radius: 5px;
+}
+
+.accounts1BlockEditDisabled{
+    font-size: 14px;
+    color: blue;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    margin-top: -3px;
+    font-weight: 600;
+    
+    cursor:not-allowed;
+    color:#a2a2a2;
+
+}
+
+.nameText{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.accounts1BlockEditClick{
+    display: flex;
+    width: 100%;
+}
+
+.accounts1BlockTextInput{
+    display: flex;
+    width: 64%;
+    gap: 50px;
+}
+
+.inputText{
+    margin-top: -12px;
+}
+
+.inputData{
+    width:435px;
+}
+
+.accounts1BlockCancelSave{
+    width: 10%;
+    margin-top: -10px;
+}
+
+.accounts1BlockCancel{
+    font-size: 14px;
+    color: blue;
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 10px 12px;
+    margin-right: 20px;
+    width:56%;
+}
+
+.accounts1BlockCancel:hover{
+    background-color: rgb(244, 247, 249);
+    border-radius: 5px;
+}
+
+.accounts1BlockSave{
+    border: none;
+    padding: 10px 10px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 45%;
+    margin-left: 15px;
+    margin-top: 80%;
+}

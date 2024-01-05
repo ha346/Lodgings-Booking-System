@@ -1,0 +1,264 @@
+.searchItem {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;  
+  margin-bottom: 20px;
+  width: 105%;  
+}
+
+.searchItemContainer{
+  width:100%;
+  display: flex;
+}
+
+.siImg {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+  margin-right: 20px;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.siDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  margin-right: 45px;
+  width: 54%;
+}
+
+.siTitle {
+  font-size: 20px;
+  color: #0071c2;
+}
+
+.siCity{
+  margin-right: 20px;
+  font-size:16px;
+  margin-top: 4px;
+}
+
+.siIcon{
+  font-size: 0px;
+  margin-bottom: 3px;
+}
+
+.siDistance {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left:5px;
+}
+
+.siTaxiOp {
+  font-size: 12px;
+  background-color: #008009;
+  color: white;
+  width: max-content;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.siRecommended{
+  border: 1px solid grey;
+  width: 188px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.siSubtitle{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.siFeatures{
+  font-size: 13px;
+}
+
+.siRoom{
+  display:flex;
+}
+
+.siRoom1{
+  background-color: #ebebeb;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.siRoom2{
+  margin-left: 8px;
+  margin-top: 3px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.siCancelOp{
+  margin-left: 10px;
+  border-left: 2px solid lightgrey;
+  margin-top: -10px;
+}
+
+.siCancelOp1{
+  margin-left: 20px;
+  color: black;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.siCancelOp2{
+  margin-left: 14px;
+  display:flex;
+}
+
+.siCancelOp21{
+  margin-top:5px;
+  color:green;
+  margin-left: 4px;
+}
+
+.siCancelOp22{
+  font-size: 12px;
+  font-weight: bold;
+  color: green;
+  margin-left: 10px;
+  margin-top: 11px;
+}
+
+.siCancelOpSubtitle{
+  font-size: 12px;
+  color: #008009;
+}
+
+.siDetails { 
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  width: 21%;  
+  padding:5px;
+}
+
+.siRating{
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.siReviewRating{
+  width: 19%;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: blue;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+}
+
+.siRatingNo{
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.siRatingImg{
+  margin-top: 1px;
+}
+
+.siReviewTitle{
+  margin-top: 4px;
+  margin-right:10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.siRating>span{
+  font-weight: 500; 
+  font-size:18px;  
+  margin-right: 10px;
+}
+.siRating>button{
+ background-color: #003580;
+ color: white;
+ padding: 8px;
+ font-weight: bold;
+ border: none;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px; 
+}
+
+.siDetailTexts{ 
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.siDates{
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 92%;
+  text-align: right;
+  margin-left: 3px;
+}
+
+.siAdults{
+  margin-top: 5px;
+  font-size: 12px;
+  color: gray;
+  text-align: right;
+}
+
+.siPrice{
+  font-size: 24px;
+  text-align: right;
+}
+
+.siTaxOp{
+  font-size: 12px;
+  color: gray;
+  text-align: right;
+}
+
+.siCheckButton{
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-bottom:20px;
+}
+
+.reviewButton{
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 65px; 
+}
+
+.ratingStars{
+  margin-left: 20px;
+}
+
+.loveIcon{
+  position: absolute;
+  margin-left: 13%;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
